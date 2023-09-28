@@ -2,9 +2,9 @@ import Working from "../images/illustration-working.svg";
 
 export default function Hero() {
   return (
-    <div className="flex flex-row mt-56 items-center">
+    <div className="flex flex-row mt-56 items-center px-[10rem] overflow-hidden justify-between">
       <div className="flex flex-col gap-4">
-        <h1 className="text-Very-Dark-Blue font-bold text-7xl ">
+        <h1 className="text-Very-Dark-Blue font-bold text-[6rem] w-[45rem]  ">
           More than just shorter links
         </h1>
         <p className="text-xl font-medium text-Grayish-Violet leading-9 w-[550px]">
@@ -18,7 +18,7 @@ export default function Hero() {
       <img
         src={Working}
         alt="Working illustration"
-        className="object-contain h-[500px]"
+        className="h-[650px] float-right relative -mr-[15%]"
       />
     </div>
   );

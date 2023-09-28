@@ -2,10 +2,10 @@ import Logo from "../images/logo.svg";
 
 export default function Navi() {
   return (
-    <nav className="mt-12 flex flex-row justify-between text-Grayish-Violet">
+    <nav className="mt-12 px-44 flex flex-row justify-between text-Grayish-Violet">
       <div className="flex flex-row gap-20 items-center">
         <img src={Logo} alt="Logo" className="object-contain" />
-        <ul className="flex flex-row gap-9 cursor-pointer font-bold text-base">
+        <ul className="flex flex-row gap-16 cursor-pointer font-bold text-base">
           <li className="hover:text-Very-Dark-Blue">Features</li>
           <li className="hover:text-Very-Dark-Blue">Pricing</li>
           <li className="hover:text-Very-Dark-Blue">Resources</li>

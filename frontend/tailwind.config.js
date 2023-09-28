@@ -11,6 +11,9 @@ export default {
         "Grayish-Violet": "hsl(257, 7%, 63%)",
         cyan: "hsl(180, 66%, 49%)",
         red: "hsl(0, 87%, 67%)",
+        "hover-cyan": "hsla(180, 56%, 75%, 1)",
+        "hover-white": "hsla(0, 0%, 100%, 1)",
+        violetBg: "#EFF1F7",
       },
       screens: {
         lg: "1440px",
